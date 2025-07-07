@@ -1,0 +1,89 @@
+<!DOCTYPE html><html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Fresh Fruit Court</title>
+  <link rel="icon" href="logo.png" type="image/png">
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #f5e9ff;
+      margin: 0;
+      padding: 0;
+      color: #333;
+    }
+    header {
+      background-color: #d2a3f7;
+      color: white;
+      padding: 1rem;
+      text-align: center;
+      font-size: 2rem;
+      font-weight: bold;
+    }
+    .container {
+      padding: 1.5rem;
+    }
+    .product {
+      background: white;
+      border-radius: 12px;
+      padding: 1rem;
+      margin-bottom: 1rem;
+      box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+    }
+    .product h3 {
+      margin: 0 0 0.5rem 0;
+    }
+    .product p {
+      margin: 0.25rem 0;
+    }
+    .whatsapp {
+      background-color: #25D366;
+      color: white;
+      padding: 0.6rem 1rem;
+      border: none;
+      border-radius: 8px;
+      text-decoration: none;
+      display: inline-block;
+      margin-top: 1rem;
+      font-weight: bold;
+    }
+    .footer {
+      text-align: center;
+      padding: 1rem;
+      font-size: 0.9rem;
+      color: #666;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    Fresh Fruit Court
+  </header>
+  <div class="container">
+    <div class="product">
+      <h3>🥗 Small Box</h3>
+      <p>Mixed fruits and vegetables</p>
+      <a class="whatsapp" href="https://wa.me/919359844246?text=I want to order the Small Box from Fresh Fruit Court">Order via WhatsApp</a>
+    </div>
+    <div class="product">
+      <h3>🥙 Medium Box</h3>
+      <p>3 fruits, 1 vegetable, sprouts + dry fruits</p>
+      <a class="whatsapp" href="https://wa.me/919359844246?text=I want to order the Medium Box from Fresh Fruit Court">Order via WhatsApp</a>
+    </div>
+    <div class="product">
+      <h3>🍱 Premium Box</h3>
+      <p>4 fruits, 2 vegetables, sprouts + dry fruits</p>
+      <a class="whatsapp" href="https://wa.me/919359844246?text=I want to order the Premium Box from Fresh Fruit Court">Order via WhatsApp</a>
+    </div>
+    <div class="product">
+      <h4>📍 Delivery Area:</h4>
+      <p>Whole Prayagraj</p>
+      <h4>💰 Payment Methods:</h4>
+      <p>UPI / COD (Use number 9359844246)</p>
+    </div>
+  </div>
+  <div class="footer">
+    &copy; 2025 Fresh Fruit Court. Powered by ChatGPT.
+  </div>
+</body>
+</html>
